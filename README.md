@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Sparring Partner Front
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Sparring Partner App est une application web conçue pour aider les pratiquants de sports de combat à trouver des partenaires de sparring locaux correspondant à leur niveau de compétence et leurs intérêts. Cette application utilise React pour le frontend et Python avec des services AWS pour le backend.
 
-## Available Scripts
+## Fonctionnalités
+- **Enregistrement et Authentification des Utilisateurs** : Les utilisateurs peuvent créer leur compte et se connecter.
+- **Création et Gestion de Profil** : Les utilisateurs peuvent ajouter et modifier des informations de profil, telles que leur niveau de compétence, poids, etc.
+- **Recherche de Partenaires de Sparring** : Recherche basée sur différents critères pour trouver des partenaires appropriés.
 
-In the project directory, you can run:
+## Technologies Utilisées
+- **Frontend** :
+  - React.js
+- **Backend** :
+  - Python
+  - AWS Lambda, API Gateway, DynamoDB, S3
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prérequis
+- Node.js et npm
+- Un compte AWS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Configuration du Backend
+1. Configurez les services AWS (Lambda, DynamoDB, API Gateway, S3) conformément aux instructions fournies dans la documentation AWS.
+2. Déployez les fonctions Lambda et configurez les tables DynamoDB nécessaires.
 
-### `npm test`
+### Mise en Place du Frontend
+```bash
+# Clonez le dépôt
+git clone https://example.com/sparring-partners-app.git
+cd sparring-partners-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installez les dépendances
+npm install
 
-### `npm run build`
+# Lancez l'application en mode développement
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Utilisation
+Après avoir lancé l'application, naviguez dans l'interface utilisateur pour vous enregistrer, créer et modifier votre profil, et rechercher des partenaires de sparring.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribution
+Les contributions à ce projet sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
+1. Fork le projet
+2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licence
+Incluez des informations sur la licence ici, si applicable.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+N'oubliez pas de remplacer les liens, les commandes et les détails spécifiques à votre projet. Ce README donne un point de départ pour documenter votre application de manière claire et concise.
